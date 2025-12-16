@@ -1,0 +1,18 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\ahmad\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\ahmad\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.11.7 (Microsoft Java 11.0.29)
+[debug] Load.defaultLoad until apply took 83.5008ms
+[debug]           Load.loadUnit: plugins took 88.5509ms
+[debug]           Load.loadUnit: defsScala took 0.2195ms
+[debug] [Loading] Scanning directory C:\Users\ahmad\Desktop\tring big data\final-project\project
+[debug]             Load.loadUnit: mkEval took 6.9693ms
