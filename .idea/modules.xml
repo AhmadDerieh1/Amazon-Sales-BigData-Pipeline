@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/final-project.iml" filepath="$PROJECT_DIR$/.idea/modules/final-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/final-project.final-project-build.iml" filepath="$PROJECT_DIR$/.idea/modules/final-project.final-project-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Amazon-Sales-BigData-Pipeline/final-project.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Amazon-Sales-BigData-Pipeline/final-project.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Amazon-Sales-BigData-Pipeline/final-project.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Amazon-Sales-BigData-Pipeline/final-project.test.iml" />
     </modules>
   </component>
 </project>
