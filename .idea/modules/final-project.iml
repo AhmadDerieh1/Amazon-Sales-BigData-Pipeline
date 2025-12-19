@@ -8,7 +8,7 @@
     <content url="file://$MODULE_DIR$/../..">
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (Amazon-Sales-BigData-Pipeline)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="final-project.main" />
     <orderEntry type="module" module-name="final-project.test" production-on-test="" />

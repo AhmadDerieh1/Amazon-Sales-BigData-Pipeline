@@ -6,6 +6,7 @@ import org.apache.spark.sql.streaming.StreamingQuery
 import pipeline.Probabilistic.TopProductsTracker
 import pipeline.Probabilistic.ProductBloomFilter
 import pipeline.Probabilistic.UniqueProductCounter
+import pipeline.Probabilistic.ProductLSH
 
 object ConsoleSink {
 
@@ -46,6 +47,20 @@ object ConsoleSink {
           UniqueProductCounter.countUniqueProducts(batchDF)
 
         println(s"\nUnique Products (Approx): $uniqueCount")
+
+        if (batchId % 5 == 0) {
+
+          println(s"\nRunning LSH Similarity Detection (batch $batchId)...")
+
+          val similarProducts =
+            ProductLSH.findSimilarProducts(
+              batchDF,
+              batchDF.sparkSession,
+              distanceThreshold = 0.6
+            )
+
+          similarProducts.show(false)
+        }
       }
       .start()
   }
