@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets
 
 object ProductBloomFilter extends Serializable {
 
-  private val bloom: BloomFilter[String] =
+  private val bloom: BloomFilter[CharSequence] =
     BloomFilter.create(
       Funnels.stringFunnel(StandardCharsets.UTF_8),
       100000,

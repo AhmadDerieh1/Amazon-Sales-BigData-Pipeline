@@ -1,7 +1,8 @@
 import csv, json, time, os
 from kafka import KafkaProducer
 
-CSV_PATH = r"C:\Users\ahmad\Desktop\tring big data\final-project\amazon_sales_2025_INR.csv"
+# CSV_PATH = r"c:\Users\PC\Desktop\tring big data\final-project\amazon_sales_2025_INR.csv"
+CSV_PATH = r"kafka_csv_producer.py"
 TOPIC = "sales-topic"
 BOOTSTRAP = "localhost:9092"
 
