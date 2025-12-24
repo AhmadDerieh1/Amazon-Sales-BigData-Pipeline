@@ -29,22 +29,18 @@ We designed a **real-time Big Data pipeline** that:
 ## 🏗️ System Architecture
 
 ```mermaid
-flowchart TD
-    A[CSV File<br/>(Amazon Sales Dataset)]
-    B[Kafka Producer<br/>(Python)]
-    C[Kafka Topic<br/>(sales-topic)]
-    D[Spark Structured Streaming]
-    E[Probabilistic Analytics<br/>Bloom Filter / Top-K]
-    F[MongoDB<br/>sales_clean<br/>sales_new_products<br/>sales_stats]
-    G[Queries / Dashboard]
+flowchart LR
+    A["CSV File (Amazon Sales Dataset)"]
+    B["Kafka Producer (Python)"]
+    C["Kafka Topic (sales-topic)"]
+    D["Spark Structured Streaming"]
+    E["Probabilistic Analytics: Bloom Filter / Top-K"]
+    F["MongoDB: sales_clean | sales_new_products | sales_stats"]
+    G["Queries / Dashboard"]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
+    A --> B --> C --> D --> E --> F --> G
 ```
+
 
 
 ## 🛠️ Technologies Used
