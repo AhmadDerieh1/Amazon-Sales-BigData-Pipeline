@@ -73,11 +73,26 @@ flowchart LR
 - Performs aggregations using Spark SQL
 - Applies probabilistic data structures for optimization
 
+## 🗄️ MongoDB Queries & Results
+
+Detailed MongoDB queries, aggregations, and result explanations
+(with screenshots) are available in the following document:
+
+📄 **MongoDB Queries & Results Explanation**  
+👉 [`docs/MongoDB_Queries_Results_Explanation.docx`](docs/MongoDB_Queries_Results_Explanation.docx)
+
+This document demonstrates:
+- Clean streaming data stored in MongoDB
+- New product detection using Bloom Filter
+- Approximate top products from streaming statistics
+- Exact aggregations using MongoDB pipelines
+- Business interpretation of the results
+
 ### Data Storage
 Processed data and analytics results are stored in MongoDB collections:
-- `sales_transactions`
-- `sales_stream_metrics`
-- `sales_new_products`
+- `sales_clean` – cleaned transactional sales data
+- `sales_new_products` – newly detected products using Bloom Filter
+- `sales_stats` – streaming analytics and approximate statistics
 
 ---
 
@@ -129,8 +144,3 @@ These challenges were addressed through incremental testing and structured strea
 - Mohammad Abu Zahid  
 - Mohammad Shawahni  
 - Mahmood Jawabrh  
-
----
-
-## 📄 License
-This project is for academic and educational purposes.
