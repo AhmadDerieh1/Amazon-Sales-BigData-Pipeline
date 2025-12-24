@@ -26,9 +26,9 @@ We designed a **real-time Big Data pipeline** that:
 - Optimizes performance using probabilistic data structures
 - Stores analytical results efficiently
 
----
-
 ## 🏗️ System Architecture
+
+```mermaid
 flowchart TD
     A[CSV File<br/>(Amazon Sales Dataset)]
     B[Kafka Producer<br/>(Python)]
@@ -44,8 +44,8 @@ flowchart TD
     D --> E
     E --> F
     F --> G
+```
 
----
 
 ## 🛠️ Technologies Used
 - **Apache Kafka**
