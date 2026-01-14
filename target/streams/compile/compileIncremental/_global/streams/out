@@ -1,6 +1,0 @@
-[debug] [zinc] IncrementalCompile -----------
-[debug] IncrementalCompile.incrementalCompile
-[debug] previous = Stamps for: 25 products, 11 sources, 7 libraries
-[debug] current source = Set(${BASE}/src/main/scala/pipeline/KafkaSource.scala, ${BASE}/src/main/scala/pipeline/MainApp.scala, ${BASE}/src/main/scala/pipeline/SalesSchema.scala, ${BASE}/src/main/scala/pipeline/probabilistic/UniqueProductCounter.scala, ${BASE}/src/main/scala/pipeline/probabilistic/ProductBloomFilter.scala, ${BASE}/src/main/scala/pipeline/SparkConfig.scala, ${BASE}/src/main/scala/pipeline/MongoSink.scala, ${BASE}/src/main/scala/pipeline/Parser.scala, ${BASE}/src/main/scala/pipeline/Cleaner.scala, ${BASE}/src/main/scala/pipeline/probabilistic/TopProductsTracker.scala, ${BASE}/src/main/scala/pipeline/ConsoleSink.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
-[debug] No changes

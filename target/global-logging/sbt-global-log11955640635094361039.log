@@ -1,7 +1,0 @@
-[debug] > Exec(all {file:/C:/Users/ahmad/Desktop/tring%20big%20data/final-project/}root/products {file:/C:/Users/ahmad/Desktop/tring%20big%20data/final-project/}root/test:products, None, None)
-[debug] Evaluating tasks: Compile / products, Test / products
-[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[info] compiling 1 Scala source to C:\Users\ahmad\Desktop\tring big data\final-project\target\scala-2.12\classes ...
-[info] done compiling
-[success] Total time: 12 s, completed Dec 23, 2025, 9:29:41 PM
-[debug] > Exec(idea-shell, None, None)

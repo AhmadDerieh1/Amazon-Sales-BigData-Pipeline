@@ -1,0 +1,14 @@
+﻿# Scala / sbt
+target/
+**/target/
+
+# IDE
+.idea/
+.vscode/
+
+# Data files
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
