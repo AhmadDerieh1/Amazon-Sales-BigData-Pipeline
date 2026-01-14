@@ -1,0 +1,6 @@
+[debug] > Exec(all {file:/C:/Users/ahmad/Desktop/tring%20big%20data/final-project/}root/products {file:/C:/Users/ahmad/Desktop/tring%20big%20data/final-project/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[success] Total time: 0 s, completed Dec 23, 2025, 9:46:02 PM
+[debug] > Exec(idea-shell, None, None)
